@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: #000033;
+}
+
+.logo img {
+  height: 80px;
+  width: 273px;
+  margin: 10px 282px 9px 103px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.menu img {
+  height: 37px;
+  width: 195px;
+  margin-top: 10px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 42px;
+  position: relative;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+#mainNav .submenu li {
+  display: block;
+  margin: 0;
+  font-size: 10px;
+}
+
+#mainNav .submenu,
+#mainNav .submenu li > .submenu {
+  position: absolute;
+  background-color: #000033;
+  width: 200px;
+  left: -10000px;
+}
+
+#mainNav ul.menu > li:hover > .submenu {
+  left: 0;
+}
+
+.hasSubmenu {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 45px;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 45px, 230px 69px, 230px;
+}
+
+.programsFlex {
+  text-align: center;
+}
+
+button {
+  font-size: 25px;
+  background-color: #000033;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.studentFlex img,
+.projectsFlex img {
+  height: 252px;
+  width: 190px;
+}
+
+.studentFlex,
+.projectsFlex {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  padding-bottom: 68px;
+}
+
+footer {
+  display: flex;
+  background-color: #000033;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.social {
+  padding-left: 500px;
+  margin-top: 54px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: white;
+  text-align: left;
+  padding-left: 103px;
+}
+.footerNav ul,
+.footer2ndNav ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footerNav li,
+.footer2ndNav li {
+  margin-right: 35px;
+}
+
+.footerNav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+.footer2ndNav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
